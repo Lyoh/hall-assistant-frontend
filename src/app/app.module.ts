@@ -8,11 +8,13 @@ import { MaterializeModule } from 'angular2-materialize';
 
 // Component Imports
 import { AppComponent } from './app.component';
+import { SpeechsComponent } from './speechs/speechs.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpeechsComponent
   ],
   imports: [
     BrowserModule,
