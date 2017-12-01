@@ -9,12 +9,16 @@ import { MaterializeModule } from 'angular2-materialize';
 // Component Imports
 import { AppComponent } from './app.component';
 import { SpeechsComponent } from './speechs/speechs.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpeechsComponent
+    SpeechsComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
