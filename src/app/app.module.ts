@@ -14,13 +14,15 @@ import { AppComponent } from './app.component';
 import { SpeechsComponent } from './speechs/speechs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CongregationComponent } from './congregation/congregation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpeechsComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CongregationComponent
   ],
   imports: [
     BrowserModule,
