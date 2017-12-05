@@ -1,3 +1,17 @@
-<p>
-  speechs works!
-</p>
+<h1>Listagem de Discursos</h1>
+<table class="bordered">
+  <thead>
+    <tr>
+      <th>Número</th>
+      <th>Tema</th>
+      <th>Assunto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let speech of speechs">
+      <td>{{ speech.id }}</td>
+      <td>{{ speech.title }}</td>
+      <td>{{ speech.getSubjects() }}</td>
+    </tr>
+  </tbody>
+</table>
